@@ -1,0 +1,92 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+.section1a{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.792);
+    color: white;
+    margin: 2%;
+    border-radius: 2%;
+}
+.section1a_1{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section1a_2{
+    width: 50%;
+}
+.section1a_2 img{
+    width: 100%;
+    height: auto;
+}
+.section2{
+    margin: 2%;
+}
+.sectioni{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+    
+}
+.sectionia{
+    display: flex;
+    border-radius: 3%;
+    box-shadow: 2px 2px 12px rgb(208, 207, 207);
+    padding: 2%;
+}
+.sectioniaimg img{
+    
+    width: 100%;
+    height: auto;
+}
+.sectioniaimg{
+    margin-top: 2%;
+    width: 50%;
+}
+.sectioniwatch{
+    padding: 2%;
+}
+.imacimg{
+    width: 30%;
+}
+.sectioniatext{
+    width: 50%;
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+}
+.sectionimaca{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 12px rgb(208, 207, 207);
+}
+a{
+    color: white;
+}
+.button{
+    padding: 2%;
+    background-color: rgb(41, 161, 231);
+    border-radius: 10px;
+    color: white;
+    border: 0;
+}
+.button:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 650px){
+    .sectioni{
+        grid-template-columns: 1fr;
+        
+    }
+   
+}

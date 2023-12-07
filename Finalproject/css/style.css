@@ -1,0 +1,169 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: "SF_Pro";
+  src: url(../font/SF-Pro.ttf);
+}
+
+
+
+video{
+  width: 100%;
+  height: auto;
+}
+a {
+  font-family: "SF_Pro";
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  color: blue;
+}
+
+.section2{
+  display: flex;
+  justify-content: space-between;
+}
+.section2atext{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section2atext a h4{
+  margin: 0%;
+  padding: 0%;
+  border-radius: 2%;
+}
+.section3aimg{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.section2aimg img{
+  width: 80%;
+  height: auto;
+}
+
+.section3{
+  display: flex;
+  overflow-x: scroll;
+}
+.section3a{
+  width: 100%;
+  box-shadow: 2px 2px 20px rgb(140, 140, 140);
+  border-radius: 5%;
+  padding: 3%;
+  margin: 1.5%;
+}
+
+.section3aimg img{
+  width: 200px;
+  height: auto;
+}
+.section3atext{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section4{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+
+.section4text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 2%;
+
+}
+.section4img{
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+.section4img img{
+  width: 100%;
+  height: auto;
+}
+.section5{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.section5video{
+  width: 50%;
+}
+
+.section5text{
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.section6{
+  display: flex;
+  background-color: #FBFBFD;
+}
+.section6a{
+  width: 50%;
+}
+.section6b{
+  width: 50%;
+}
+.section6atext,.section6btext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.section6aimg img{
+  width: 100%;
+  height: auto;
+}
+.section6bimg img{
+  width: 100%;
+  height: auto;
+}
+a:hover{
+  text-decoration: underline;
+  font-size: larger;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 450px){
+
+  .section2{
+    flex-direction: column;
+  }
+  .section2aimg{
+    display: flex;
+    justify-content: center;
+  }
+
+  .section4{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .section5, .section6{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

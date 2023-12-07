@@ -1,0 +1,56 @@
+footer{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+p,h4{
+    margin: 0;
+    padding: 0;
+}
+.section1 p{
+    margin: 0%;
+    padding: 0%;
+}
+.section2{
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+input, textarea{
+    
+    border: 2px solid rgb(69, 69, 69);
+    border-radius: 3%;
+}
+textarea{
+    font-family: "Poppins", sans-serif;
+}
+.subbutton{
+    width: 30%;
+    margin-top: 2%;
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+.subbutton:hover{
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 450px){
+    .section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
