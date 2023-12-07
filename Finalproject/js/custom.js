@@ -40,12 +40,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // function for menu
 
-// function toggleMenu() {
-//   var ul = document.querySelector('ul');
-//   ul.style.display = (ul.style.display === 'flex') ? 'none' : 'flex';
-// }
-
 function toggleMenu() {
-    $('ul').toggle('flex');
+  var ul = document.querySelector('ul');
+  ul.style.display = (ul.style.display === 'flex') ? 'none' : 'flex';
 }
+
+// function toggleMenu() {
+//     $('ul').toggle('flex');
+// }
 
